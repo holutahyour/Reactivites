@@ -19,7 +19,6 @@ function App() {
   return (
     <div>
       <Header as='h2' icon='users' content='Reactivities'/>
-        <img src={logo} className="App-logo" alt="logo" />
         <List>
             {activities.map((activity: any) => {  
               return <List.Item key={activity.id}>{activity.title}</List.Item>
